@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="content-language" content="zh-CN" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+	    <meta name="screen-orientation" content="portrait">
+	    <meta name="x5-orientation" content="portrait">
+	    <meta name="full-screen" content="yes">
+	    <meta name="x5-fullscreen" content="true">
+	    <meta name="browsermode" content="application">
+	    <meta name="x5-page-mode" content="app">
+	    <meta name="msapplication-tap-highlight" content="no">
+		<title></title>
+		<style type="text/css">
+			html,body{margin:0;padding:0;width:100%;height:100%;}
+			img,canvas{-webkit-touch-callout:none;}
+			#container{width:100%;height:100%;}
+			.amap-logo img{margin-left: 55px;position: relative;bottom: 14px;}
+			.amap-scalecontrol{margin-left:58px;margin-bottom:15px;}
+			.amap-copyright{display: none !important;}
+			.locationIcon{background-color:#fff;background-color:rgba(255, 255, 255, 0.26);width:36px;height:36px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;box-shadow: 2px 2px 5px #888888;}
+			.locationIcon>img{width:32px;margin-left:2px;margin-top:2px;}
+			.makerStyle{font-size: 12px;min-width: 200px;height: 30px;line-height: 30px;text-align: left;}
+			.makerStyle>span{background-color:#FF4814;color:#fff;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;padding: 6px;}
+			.infoWindow{width:280px;height:150px;font-size:13px;background-color:#fff;box-shadow: 2px 2px 2px #888;padding-bottom: 20px;}
+			.info_arrow{height:20px;width:20px;transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg);padding-left: 0 !important;position: absolute;left:125px;top:132px;background-color:#ffffff;z-index: 4;}
+			.info_title{background-color:#0090FF;height:28px;line-height:28px;color:#fff;padding-left:10px;}
+			.infoWindow>div{padding-left:10px;margin-bottom:5px;}
+			.info_name{margin-top:10px;}
+			.info_address{color: #434754;}
+			.info_type{color: #434754;}
+			.info_btn{text-align: center;position: relative;z-index: 10;height: 50px;}
+			.info_btn>span{cursor: pointer;border-radius: 8px;display: inline-block;padding: 6px 12px;color: white;box-shadow: inset 0px 1px 1px rgba(154, 186, 228, 0.58);}
+			.dis_span{color: #FA2D00;font-weight: bold;}
+			.info_close{position: absolute;width:28px;height:26px;right:0;top:0;cursor: pointer;}
+			.info_close>img{margin-top:3px;right:3px;width:20px;}
+			.loc_circle{width:50px;height:50px;border:2px solid #49B3F4;border-radius:50px;background-color:#64C7FA;opacity:0.5;}
+			.loc_img{position: relative;left:20px;top:-34px;}
+			.gd1{background-image: -moz-linear-gradient( 0deg, rgb(53,190,102) 0%, rgb(104,205,68) 72%, rgb(155,219,33) 100%);background-image: -webkit-linear-gradient( 0deg, rgb(53,190,102) 0%, rgb(104,205,68) 72%, rgb(155,219,33) 100%);background-image: -ms-linear-gradient( 0deg, rgb(53,190,102) 0%, rgb(104,205,68) 72%, rgb(155,219,33) 100%);}
+			.top-box{float: left;width: 100%;position: fixed;top:0px;left:0px;z-index: 999;}
+			.top-box .title-box{float: left;width: 100%;height:42px;color: white;font-size: 14px;}
+			.top-box .title-box .sp-left{float: left;width: 10%;height: 100%;line-height: 42px;text-align: center;}
+			.top-box .title-box .sp-left:active{background-color: rgba(0,0,0,.2);}
+			.top-box .title-box .sp-left:active .sp-angle-box .sp-img{border-right-color:#329b4d;}
+			.top-box .title-box .sp-left .sp-angle-box{width: 0px;height: 0px;border: 1px solid;border-color: transparent white transparent transparent;border-width: 10px;float: left;margin-top: 10.5px;position: relative;}
+			.top-box .title-box .sp-left .sp-angle-box .sp-img{position: absolute;left: -8px;top: -10px;width: 0px;height: 0px;border: 1px solid;border-color: transparent #3ec061 transparent transparent;border-width: 10px;float: left;}
+			.top-box .title-box .sp-center{float: left;width: 80%;line-height: 42px;text-align: center;}
+			.top-box .title-box .sp-right{float: left;width: 10%;height: 100%;line-height: 42px;text-align: center;}
+			.top-box .search-box{float: left;width: 100%;background-color: white;}
+			.top-box .search-box .p-input{float: left;width: 94%;margin: 1%;margin-left: 3%;border: 1px solid #d6d7dc;height: 30px;line-height: 30px;border-radius: 20px;overflow: hidden;}
+			.top-box .search-box .p-input .left-input{float: left;width: 62%;margin:0% 6%;border:none;height: 100%;outline: none;}
+			.top-box .search-box .p-input .right-sp{float: right;width: 18%;height: 100%;text-align: center;background-color: #35be66;color: white;font-size: 14px;letter-spacing: 2px;}
+			.top-box .search-box .p-input .right-sp:active{opacity: 0.8;}
+	    </style>
+	</head>
+	<body>
+		<div class="top-box">
+			<div class="title-box gd1">
+				<span class="sp-left">
+					<span class="sp-angle-box">
+						<span class="sp-img"></span>
+					</span>
+				</span>
+				<span class="sp-center">社区选择</span>
+				<span class="sp-right"></span>
+			</div>
+			<div class="search-box">
+				<p class="p-input">
+					<input type="text" class="left-input" name="" id="search" value="" />
+					<span id="searchBtn" class="right-sp">搜索</span>
+				</p>
+			</div>
+		</div>
+		<div id="container"></div>
+		
+		<script src="./jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=02a040989c43c081764295d1df71524e"></script>
+		<script type="text/javascript">
+			var isiPhone = navigator.userAgent.toLocaleLowerCase().match(/iPhone/i);
+	        var map = new AMap.Map('container',{
+	            resizeEnable: true,
+	            zoom: 10
+	        });
+	        var locationIcon = '<div class="locationIcon">'
+		    + '<img src="./geolocation.png"/>'
+		    + '</div>';
+		    
+		    var dataPosition;
+		    
+			var locationComplete = function(data){
+				if(data.info==='SUCCESS' && data.type==='complete'){
+					dataPosition=data;
+			    	map.clearMap();
+			    	doSearch([data.position.lng, data.position.lat]);
+				}else{
+					alert('数据出错！')
+				}
+		    };
+		    var locationError = function(){
+		      alert('定位失败，请在手机上开启定位:设置->隐私->定位服务->我的小区->使用应用期间');
+		    };
+		    
+	        map.plugin(["AMap.ToolBar"],function(){ 
+	        	//加载工具条
+	        	var tool = new AMap.ToolBar(); 
+	        	map.addControl(tool);
+	        });
+		    map.plugin(["AMap.Scale"],function(){
+		      map.addControl(new AMap.Scale());
+		    });
+		    
+			map.plugin('AMap.Geolocation', function () {
+			    geolocation = new AMap.Geolocation({
+			        enableHighAccuracy: true,//是否使用高精度定位，默认:true
+			        timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+			        maximumAge: 0,           //定位结果缓存0毫秒，默认：0
+			        convert: true,           //自动偏移坐标，偏移后的坐标为高德坐标，默认：true
+			        showButton: true,        //显示定位按钮，默认：true
+			        buttonPosition: 'LB',    //定位按钮停靠位置，默认：'LB'，左下角
+			        buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+			        showMarker: true,        //定位成功后在定位到的位置显示点标记，默认：true
+			        showCircle: true,        //定位成功后用圆圈表示定位精度范围，默认：true
+			        panToLocation: true,     //定位成功后将定位到的位置作为地图中心点，默认：true
+			        zoomToAccuracy:true,	 //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+        			buttonDom: locationIcon      
+			    });
+			    map.addControl(geolocation);
+			    geolocation.getCurrentPosition();
+			    AMap.event.addListener(geolocation, 'complete', locationComplete);//返回定位信息
+			    AMap.event.addListener(geolocation, 'error', locationError);      //返回定位出错信息
+			});
+//			AMap.service('AMap.Walking', function(){
+//		      walking= new AMap.Walking({
+//		        map: map
+//		      });
+//		    });
+		    function _closeInfoWindow(){
+		      map.clearInfoWindow();
+		    }
+			function doSearch(center,objString){
+				var obj={name:'小区',type:1};
+				var newObj=$.extend({},obj,objString);
+		      //展示定位
+		      var marker = new AMap.Marker({
+		        position: center,
+		        map: map,
+		        content:'<div class="loc_circle"></div><img class="loc_img" src="loc.png" style="width:16px;"/>'
+		      });
+		      AMap.service(["AMap.PlaceSearch"], function() {
+		        var placeSearch = new AMap.PlaceSearch({
+		          pageSize: 30,
+		          extensions: 'base',
+		          type: '小区'
+		        });
+		        if(newObj.type==1){
+			        placeSearch.searchNearBy(newObj.name, center, 2000, function(status, result) {
+			          if (status === 'complete' && result.info === 'OK') {
+			            var pois = result.poiList.pois;
+			            pois.forEach(function(poi){
+			              var divStr = '<div class="makerStyle"><span>' + poi.name + '</span></div>';
+			              var info = '<div class="infoWindow"><div class="info_title gd1">小区信息</div>'
+			                + '<div class="info_name">名称: ' + poi.name+ '</div>'
+			                + '<div class="info_dis">距您: ' + '<span class="dis_span">' + poi.distance + '米</span>' + '</div>'
+			                + '<div class="info_address">地址: ' + poi.address+ '</div>'
+			                + '<div class="info_type">类型: ' + (poi.type || '小区')+ '</div>'
+			                + '<div class="info_arrow"></div>'
+			                + '<div class="info_btn"><span class="gd1" lng="'+center[0]+'" lat="'+center[1]+'" aid="'+poi.id+'" aname="'+poi.name+'" address="'+poi.address+'">进入小区</span></div>';
+			              if(isiPhone && isiPhone.length){
+			                info +='<div class="info_close" ontouchstart="_closeInfoWindow()"><img src="close_blue.png" style=""/></div>'
+			                  + '</div>';
+			              }else{
+			                info += '<div class="info_close" onclick="_closeInfoWindow()"><img src="close_blue.png" style=""/></div>'
+			                + '</div>';
+			              }
+			              var marker = new AMap.Marker({
+			                position: poi.location,
+			                title: poi['name'],
+			                map: map,
+			                content: divStr,
+			                offset: new AMap.Pixel(10,-25)
+			              });
+			              function showInfo(){
+			                var infowindow = new AMap.InfoWindow({
+			                  content: info,
+			                  offset: new AMap.Pixel(40,-35),
+			                  isCustom: true
+			                });
+			                infowindow.open(map, poi.location);
+			                //步行路径规划
+	//		                walking.clear();
+	//		                var start = new AMap.LngLat(center[0], center[1]);
+	//		                var end = poi.location;
+	//		                walking.search(start, end);
+			              }
+			              if(isiPhone && isiPhone.length){
+			                AMap.event.addListener(marker, 'touchstart', showInfo);
+			              }else{
+			                AMap.event.addListener(marker, 'click', showInfo);
+			              }
+			            });
+			            map.setZoom(16);
+			          }else{
+			            alert('该地点没有查询到相关数据');
+			          }
+			        });
+		        }else{
+		        	//搜索
+		        	placeSearch.searchNearBy(newObj.name, center, 50000, function(status, result) {
+			          if (status === 'complete') {
+			            var pois = result.poiList.pois;
+			            pois.forEach(function(poi){
+			              var divStr = '<div class="makerStyle"><span>' + poi.name + '</span></div>';
+			              var info = '<div class="infoWindow"><div class="info_title gd1">小区信息</div>'
+			                + '<div class="info_name">名称: ' + poi.name+ '</div>'
+			                + '<div class="info_dis">距您: ' + '<span class="dis_span">' + poi.distance + '米</span>' + '</div>'
+			                + '<div class="info_address">地址: ' + poi.address+ '</div>'
+			                + '<div class="info_type">类型: ' + (poi.type || '小区')+ '</div>'
+			                + '<div class="info_arrow"></div>'
+			                + '<div class="info_btn"><span class="gd1" lng="'+center[0]+'" lat="'+center[1]+'" aid="'+poi.id+'" aname="'+poi.name+'" address="'+poi.address+'">进入小区</span></div>';
+			              if(isiPhone && isiPhone.length){
+			                info +='<div class="info_close" ontouchstart="_closeInfoWindow()"><img src="close_blue.png" style=""/></div>'
+			                  + '</div>';
+			              }else{
+			                info += '<div class="info_close" onclick="_closeInfoWindow()"><img src="close_blue.png" style=""/></div>'
+			                + '</div>';
+			              }
+			              var marker = new AMap.Marker({
+			                position: poi.location,
+			                title: poi['name'],
+			                map: map,
+			                content: divStr,
+			                offset: new AMap.Pixel(10,-25)
+			              });
+			              function showInfo(){
+			                var infowindow = new AMap.InfoWindow({
+			                  content: info,
+			                  offset: new AMap.Pixel(40,-35),
+			                  isCustom: true
+			                });
+			                infowindow.open(map, poi.location);
+			                //步行路径规划
+	//		                walking.clear();
+	//		                var start = new AMap.LngLat(center[0], center[1]);
+	//		                var end = poi.location;
+	//		                walking.search(start, end);
+			              }
+			              if(isiPhone && isiPhone.length){
+			                AMap.event.addListener(marker, 'touchstart', showInfo);
+			              }else{
+			                AMap.event.addListener(marker, 'click', showInfo);
+			              }
+			            });
+			            map.setZoom(12);
+			          }else{
+			            alert('该地点没有查询到相关数据');
+			          }
+			        });
+		        	
+		        	
+		        }
+		      });
+		    }
+		    document.querySelector('a.amap-logo').onclick = function(){
+		      return false;
+		    };
+		    
+		    
+			
+			$(function(){
+				$('.top-box .title-box .sp-left').on('click',function(){
+					window.postMessage('back');
+				});
+				$('body').on('click','.info_btn>span',function(){
+					var id=$(this).attr('aid');
+					var name=$(this).attr('aname');
+					var address=$(this).attr('address');
+					var lng=$(this).attr('lng');
+					var lat=$(this).attr('lat');
+					alert('当前小区id为:'+id+',小区名称为:'+name+',小区地址在:'+address+',经度：'+lng+',纬度：'+lat)
+
+					//此处做跳转
+					//window.location.href='http://www.baidu.com';
+					window.postMessage(JSON.stringify({
+						state:'ok',
+						id: id,
+						name: name,
+						address: address,
+                        lng:lng,
+                        lat:lat
+					}));
+				});
+				$('#searchBtn').click(function(){
+					var txt=$('#search').val();
+					map.clearMap();
+					doSearch([dataPosition.position.lng, dataPosition.position.lat],{name:txt,type:0});
+				});
+			})
+	    </script>
+	</body>
+</html>
