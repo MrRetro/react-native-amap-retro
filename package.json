@@ -1,7 +1,7 @@
 {
-	"name": "react-native-amap-retro",
+	"name": "amapDemo",
 	"version": "0.0.1",
-	"private": false,
+	"private": true,
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
