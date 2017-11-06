@@ -16,12 +16,6 @@ import {
 
 const { width, height } = Dimensions.get('window');
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
 const patchPostMessageJsCode = `(${String(function() {
     var originalPostMessage = window.postMessage
     var patchedPostMessage = function(message, targetOrigin, transfer) {
@@ -34,6 +28,13 @@ const patchPostMessageJsCode = `(${String(function() {
 })})();`
 
 export default class App extends Component<{}> {
+
+  _handleMessage = (event) => {
+      // console.log('_handleMessage');
+      let obj=event.nativeEvent.data;
+
+      alert('我是RN侧，地图饭回来的数据是：'+obj)
+  }
   render() {
     return (
       <View style={styles.container}>
