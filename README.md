@@ -11,4 +11,6 @@ npm install
 
 
 ![Image text](./gif.gif)
-
+    
+#### 这边踩了个坑，当android或IOS显示不出地图的时候，其实是权限没有开启
+![Image text](./config.png)
