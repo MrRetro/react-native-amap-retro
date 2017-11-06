@@ -5,9 +5,10 @@
 
 ## 安装
 
-git clone https://github.com/MrRetro/react-native-amap-retro.git 		
-cd react-native-amap-retro 		
-npm install 		
+git clone https://github.com/MrRetro/react-native-amap-retro.git    
+cd react-native-amap-retro    
+npm install    
+
 
 ![Image text](./gif.gif)
 
