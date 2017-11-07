@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTJSEnvironment.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h

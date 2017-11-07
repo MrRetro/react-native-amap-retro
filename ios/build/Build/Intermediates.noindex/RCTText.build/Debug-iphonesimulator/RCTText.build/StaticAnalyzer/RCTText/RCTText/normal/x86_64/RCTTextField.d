@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTTextField.m \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTTextField.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTTextInput.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTBackedTextInputViewProtocol.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTFontAttributes.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTFontAttributesDelegate.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTBackedTextInputDelegate.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
+  /Users/plus/Desktop/RN/test/Amap/amapDemo/node_modules/react-native/Libraries/Text/RCTUITextField.h
