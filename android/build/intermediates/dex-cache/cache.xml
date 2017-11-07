@@ -3,192 +3,192 @@
 
     <item
         is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_57f8c3d89811754f7b79f385f8dfb40038038923.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_18ccd5cf74bf78ded20c7a7cc1f081c277e939c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator.SC-201608011324\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_35e27571d2f73094a7706f593c2960697173fe05.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_264cbe722c0a3f2e441ede3bb39b8b482e352186.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator.SC-201608011324\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_71e3d3ff49bd40524295f31b8523752b761fd31d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Soft\java\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_e86a4bcbf5c1b48103044f062c8df103f46e593b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_09f86ffc81a5914edac537ec9332000366e6f510.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1a1444b104d20c6ecafc7af057a7df83f23bac4b">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.50.1_8b2a97f9b53b60e15356d48e2be5ea5eaabf06e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_d13f8ea1a1f9c943f598c58fba1b24baf315508d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator.SC-201608011324\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_c027cf681da613a594d833071b2c13e496074dc3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator.SC-201608011324\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_8523b9cfd253d3f2883d1f61bf0bf5c538b818d8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_f2726e6f3289760b42f2a419024f1154ffc41e2c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_ea2dbc349157a916989a5582d3c6b604a19198de.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator.SC-201608011324\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_80596666cf3b158cd4e04079785d8d35a0afcabf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator.SC-201608011324\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_6d7ba7c3407b43fa6514351fdbcefdd4e60fe62d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_58424faffb1c8436f74624a10f555b0f03f8ed2f.jar" />
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_d4eff7047e2f794eba17f62b415831fd1004444a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.50.1\jars\libs\infer-annotations-4.0.jar"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_d8fa5ca821b86cd8b619997cd7a8d56950a4eb5a.jar" />
+        sha1="1a1444b104d20c6ecafc7af057a7df83f23bac4b">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.1_f11b3d6ae482091823c59feeb2c68b885d51b8a3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jar="/Users/plus/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_1e98ac2471a79996250c1f85cae222bd0d195f5d.jar" />
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_fac8879001798c4a81dbab01ec71e260ad0a67a3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator.SC-201608011324\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_544e9ef77988bba32d50f7d8bee3ff7739fccb0b.jar" />
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_c2890f617546e57d4b92dfdb24615f4f5abff582.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_a6ae2e1b32ef83bf943e5d7f793ac2b5c20919dc.jar" />
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_10878c8ef3b9e03eb8a312da5f0554b61496ad44.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jar="/Users/plus/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_1dcf0c7049a254b7ddaae7b88b6c120abd27dfb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="D:\RN\_RNtest\amap\amapDemo\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_92629aeeaf9a54ecf68f5d97cf3ae23451e61752.jar" />
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_ce53d6b2a5eb278fb7b61cb65d9c028a2428853c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_8c2f32325f61c6554e37edb4d82fa862fcf4d704.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_0e307965384a904849b1767df987e079332d97e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.1/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_c521c772a0c112a06fccf3bb08e8f1ca44dc37f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_85c5a2fe7354ee77283535b9fb2e7eed80a92a84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_f2db473cc4bb6d2dc10de6733d2ad75943d47bc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_3e81600393aa47ae8cd14c21ed71b707bcdfbe05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_5e62be7978cbf7d9b539fdc5d23a4f8cd3107c89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_ea037de5cf6a4f79f749a34f91acc179a13d6571.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_959dfb3b1f6c0c4a2fdd893341c4c710e8c6ee8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_6ecf1f424d0368e235310e73057eea45c58446df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_ddddbe3ea1ecf55e0ce1f1ae7c07adba5f38fb0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_e39a227fe9557d5effe158bbd65c53f1153d2683.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_768c1a477e4967565f3d4f8d54d3797b17ddbcc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/plus/Desktop/RN/test/Amap/amapDemo/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_f30bcbb4a69d75ad90345a92ba6704c308322758.jar" />
     </item>
 
 </items>
